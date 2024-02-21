@@ -1,0 +1,54 @@
+.services-page{
+    padding-top: 140px;
+    width: 100vw;
+    min-height: 100vh;
+    max-height: max-content;
+}
+.service-page-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-page-image img{
+    width: 80%;
+    margin-bottom: 100px;
+}
+.services-page-container{
+
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.services-page-container .row{
+    width: 90%;
+}
+.services-page-container .row .col-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.service-company-name{
+    text-align: center;
+    color: #ffffff;
+    box-shadow: inset 0 0 60px whitesmoke,
+                inset 20px 0 80px #9b10db,
+                inset -20px 0 80px #0ff,
+                inset 20px 0 800px #9b10db,
+                inset -20px 0 800px #0ff,
+                0 0 50px #fff,
+                -10px 0 80px #9b10db,
+                10px 0 80px #0ff;
+    margin-bottom: 30px;
+}
+@media  only screen and (max-width: 600px){
+    .services-page{
+        padding-top: 80px;
+    }
+}

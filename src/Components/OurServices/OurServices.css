@@ -1,0 +1,49 @@
+.services {
+    margin-top: 200px;
+}
+.services .title-service{
+    width: 100vw;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.services-container{
+    margin-top: 100px;
+    width: 100vw;
+    overflow: hidden;
+}
+.services .title-service h1{
+    font-size: 4rem !important;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.services .right-container{
+    margin-top: 245px;
+    margin-right: 0px;
+    position: relative;
+    right: 100px;
+}
+.services .left-container{
+    position: relative;
+    left: 150px;
+}
+@media  only screen and (max-width: 600px){
+    .services {
+        margin-top: 0px;
+    }
+    .services .title-service h1{
+        font-size: 2rem !important;
+    }
+    .services-container{
+        margin-top: 30px;
+    }
+    .services .right-container{
+        margin-top: 90px;
+        right: 50px;
+    }
+    .services .left-container{
+        position: relative;
+        left: 50px;
+    }
+}

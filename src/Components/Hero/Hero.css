@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,500&family=Montserrat:wght@300;500;700&family=Playfair+Display:wght@500&family=Roboto:ital,wght@1,100&family=Rubik+Scribble&display=swap');
+
+.hero{
+    height: 100vh;
+}
+.hero-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.name-company h1{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    font-family: "Source Serif Pro";
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10.11px;
+    color: transparent;
+    color :transparent;
+    -webkit-text-stroke:7px #ffffff;
+    
+}
+
+.name-company h1 span.strok{
+    color: #ffffff;
+    animation : change 2s forwards;
+    animation-delay: 1.5s;
+}
+@keyframes change {
+    from {
+        color: #ffffff;
+    }
+    to{
+        color: transparent;
+    }
+}
+.first-word{
+    background-image: linear-gradient(-45deg ,white 69%  , transparent 50% ) !important;
+    background-clip: text;
+}
+.second-word{
+    background-image: linear-gradient(-45deg ,white 84%  , transparent 50% ) !important;
+    background-clip: text;
+}
+.name-company-small{
+    display: none;
+}
+.name-company h1 span.marg-left{
+    position: relative;
+    bottom: 100px;
+}
+.name-company-small h1{
+    position: relative;
+    top: 100px;
+    left: 25px;
+    font-family: "Source Serif Pro";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10.11px;
+    color: transparent;
+    -webkit-text-stroke:3px #ffffff;
+}
+.name-company-small h1 .fill{
+    color: #ffffff;
+}
+.name-company-small h1 .marg-left{
+    position: relative;
+    left: 30px;
+}
+.logo-hero{
+    position: relative;
+    top: 150px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.logo-hero img{
+    width: 150px;
+}
+.slogan{
+    position: relative;
+    text-align: center;
+    top: 700px;
+    color: skyblue;
+    font-size: 3rem !important;
+    -webkit-text-stroke:2px #ffffff;
+
+}
+.slogan .back-slogan{
+    width: 100vw;
+    overflow-x: hidden !important;
+    backdrop-filter: blur(10px);
+}
+
+@media  only screen and (max-width: 600px){
+    .hero{
+        height: 800px;
+    }
+    .name-company {
+        display: none;
+    }
+    .slogan{
+        font-size: 1.5rem !important;
+        
+        color:  #ffffff;
+        -webkit-text-stroke:0;
+        top: 310px;
+    }
+    .slogan .back-slogan{
+        height: 80px;
+    }
+    .logo-hero{
+        display: flex;
+        top: 180px;
+    }
+    .name-company-small{
+        display: block;
+    }
+}

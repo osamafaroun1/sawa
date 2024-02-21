@@ -1,0 +1,185 @@
+.about-page{
+    margin-bottom: 50px;
+}
+.about-page .about-img img{
+    width: 80%;
+    border-radius: 20px;
+}
+.bg-about{
+    background-color: #FFFFFF;
+    height: 200px;
+}
+.about-page .about-img{
+    background-color: #ffffff;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-page .who-are-we{
+    position: relative;
+    width: 100%;
+    padding: 50px 60px;
+    min-height: 450px;
+    max-height: max-content;
+    background-color:rgba(255, 255, 255, 0.4);
+
+    
+}
+.about-page .who-are-we h1.quiz-title {
+    /* padding: 0px 40px; */
+    position: relative;
+    font-size: 4rem !important;
+    top: -80px;
+    left: 40px;
+    z-index: 90;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    /* text-shadow: 0 5px 5px rgba(0, 0, 0, 0.8); */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about-page .who-are-we h4{
+    padding: 80px 60px;
+    color: #050505;
+    /* -webkit-text-stroke: 1px #9b9b9b; */
+    font-size: 2rem !important;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.custom-shape-divider-top-1707034690 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1707034690 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 288px;
+}
+
+.custom-shape-divider-top-1707034690 .shape-fill {
+    fill: #ffffff;
+}
+.custom-shape-divider-bottom-1707035420 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1707035420 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 188px;
+}
+
+.custom-shape-divider-bottom-1707035420 .shape-fill {
+    fill: #FFFFFF;
+}
+.vision{
+    width: 100%;
+    background-image: linear-gradient(to bottom, #fff, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.our-vision{
+    width: 600px;
+    background-color: rgb(32, 32, 32);
+    padding: 40px 25px;
+    border-radius: 15px;
+    border: 5px solid rgb(32, 32, 32) ;
+    transition: all 2s ease;
+
+}
+.our-vision:hover,.our-vision:focus{
+    border: 5px solid gold  ;
+    background-color: blueviolet;
+    box-shadow: inset 0 0 60px whitesmoke,
+                inset 20px 0 80px #f0f,
+                inset -20px 0 80px #0ff,
+                inset 20px 0 800px #f0f,
+                inset -20px 0 800px #0ff,
+                0 0 50px #fff,
+                -10px 0 80px #f0f,
+                10px 0 80px #0ff;
+}
+.vision-title h2{
+    margin-bottom: 30px;
+    font-size: 4rem !important;
+}
+.vision-text{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.logo-vision img{
+    width: 200px;
+}
+@media  only screen and (max-width: 600px){
+    .about-page .who-are-we{
+        width: 900px;
+        padding: 40px 10px;
+        height: 550px;
+    }
+    .about-page .who-are-we h1.quiz-title{
+        font-size: 2.7rem !important;
+        top: 0;
+        left: 5%;
+    }
+    .about-page .who-are-we h4{
+        width: 350px;
+        padding: 20px 10px;
+        font-size: 1.5rem !important;
+        text-align: left;
+        position: relative;
+        top: 14%;
+        left: 7%;
+    }
+    .about-page .bg-about{
+        height: 30px;
+    }
+    .custom-shape-divider-top-1707034690 .shape-fill {
+        fill: rgba(16, 145, 250, 1);
+    }
+    .custom-shape-divider-bottom-1707035420 .shape-fill {
+        fill: rgba(016, 145, 250, 1);;
+    }
+    .about-page .about-img{
+        height: 350px;
+        background-image: linear-gradient(to bottom ,rgba(016, 145, 250, 1) , rgba(236, 30, 30, 0));
+    }
+    .our-vision{
+        height: max-content;
+        width: 90%;
+        border: 5px solid gold  ;
+    /* background-color: blueviolet;
+    box-shadow: inset 0 0 60px whitesmoke,
+                inset 20px 0 80px #f0f,
+                inset -20px 0 80px #0ff,
+                inset 20px 0 800px #f0f,
+                inset -20px 0 800px #0ff,
+                0 0 50px #fff,
+                -10px 0 80px #f0f,
+                10px 0 80px #0ff; */
+    }
+    .vision-title h2{
+        margin-bottom: 30px;
+        font-size: 2rem !important;
+    }
+    .vision-text{
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    .logo-vision img{
+        width: 150px;
+    }
+}
